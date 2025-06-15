@@ -1,0 +1,30 @@
+* {
+    font-family: sans-serif;
+}
+
+.sec1 {
+    background-image: url('./assets/bg.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 10px 0;
+}
+
+.sec4 {
+    background-image: url('./assets/bg.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 50px 0;
+    height: 560px;
+}
+
+@media (max-width:1024px){
+    .sec1{
+        background-size: cover;
+    }
+
+    .sec4{
+        background-size: cover;
+    }
+}
