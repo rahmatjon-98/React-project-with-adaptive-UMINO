@@ -20,8 +20,10 @@ import icon7 from '../assets/7.png'
 const Footer = () => {
   return (
     <footer className="bg-[#F5F5F5] py-[0px] lg:pt-[50px]">
-      <div className="flex lg:flex-nowrap flex-wrap justify-between w-[95%] lg:w-[80%] m-auto py-5 ">
-        <div className="text-[#555555] text-[10px] py-5">
+
+      <div className="flex lg:flex-nowrap flex-wrap justify-center lg:justify-between w-[90%] lg:w-[80%] m-auto py-5 ">
+
+        <div className="text-[#555555] text-[10px] py-5 lg:w-auto w-[90%] ">
           <img className="w-[70px] pb-[20px]" src={logo} alt="" />
           <p>268 St, South New York/NY 98944, United States</p>
           <p>+222-1800-2628</p>
@@ -52,7 +54,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="py-2.5">
+        <div className="py-3 lg:w-auto w-[45%] ">
           <p className="font-semibold text-[11px] uppercase pb-3">
             Customer Service
           </p>
@@ -82,7 +84,7 @@ const Footer = () => {
           <br />
         </div>
 
-        <div className="py-2.5">
+        <div className="py-3 lg:w-auto w-[45%] ">
           <p className="font-semibold text-[11px] uppercase pb-3">
             Shop By Categories
           </p>
@@ -108,7 +110,7 @@ const Footer = () => {
           <br />
         </div>
 
-        <div className="lg:w-[35%] py-2.5">
+        <div className="lg:w-[35%] py-3  w-[90%] ">
           <p className="font-semibold text-[11px] uppercase pb-3">
             Sign Up to Newsletter
           </p>

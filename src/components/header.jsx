@@ -2,7 +2,7 @@ import logo from "../assets/Logo.png";
 const Header = () => {
   return (
     <header className="font-sans ">
-      <div className="flex justify-between px-10 lg:px-10 py-1.5 font-medium">
+      <div className="flex justify-between px-5 lg:px-10 py-1.5 font-medium">
         <div className="lg:flex hidden text-[12px] lg:text-[13px] gap-2">
           <p>+222-1800-2628</p>
           <p className="underline">blueskytechcompany@gmail.com</p>
@@ -20,7 +20,7 @@ const Header = () => {
         <div className="flex justify-between lg:justify-between lg:gap-3 text-[12px] lg:text-[13px] lg:w-auto w-[100%]">
           <a href="">Our Stores</a>
 
-          <select className="">
+          <select>
             <option value="">English</option>
             <option value="">Russian</option>
             <option value="">Tajik</option>
@@ -34,7 +34,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-between  px-[40px] py-3 border-y border-[#EBEBEB] ">
+      <div className="flex items-center justify-between px-5 lg:px-10 py-3 border-y border-[#EBEBEB] ">
         <img className="w-[70px]" src={logo} alt="" />
 
         <div className="text-[13px] ml-18 uppercase gap-4 font-bold lg:flex hidden">
@@ -74,7 +74,7 @@ const Header = () => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="size-6 w-[24px] h-[24px]"
+            className="size-6 w-[24px] h-[24px] lg:block hidden"
           >
             <path
               strokeLinecap="round"
@@ -89,7 +89,7 @@ const Header = () => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="size-6 w-[24px] h-[24px]"
+            className="size-6 w-[24px] h-[24px] lg:block hidden"
           >
             <path
               strokeLinecap="round"
@@ -104,7 +104,7 @@ const Header = () => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="size-6 w-[24px] h-[24px]"
+            className="size-6 w-[24px] h-[24px] lg:block hidden"
           >
             <path
               strokeLinecap="round"
@@ -143,15 +143,28 @@ const Header = () => {
             />
           </svg>
 
-          
-
-          <div className="absolute right-[68px] bg-[#9C6D3A] w-[20px] h-[20px] flex justify-center items-center rounded-[50%]">
+          <div className="absolute right-[88px] lg:right-[68px] bg-[#9C6D3A] w-[20px] h-[20px] flex justify-center items-center rounded-[50%]">
             <p className="text-[10px] text-white">0</p>
           </div>
 
-          <div className="absolute  right-[30px] ml-[-50px] bg-[#9C6D3A] w-[20px] h-[20px] flex justify-center items-center rounded-[50%]">
+          <div className="absolute right-[50px]  lg:right-[30px] ml-[-50px] bg-[#9C6D3A] w-[20px] h-[20px] flex justify-center items-center rounded-[50%]">
             <p className="text-[10px] text-white">0</p>
           </div>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="size-6  w-[24px] h-[24px] block lg:hidden"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
         </div>
       </div>
     </header>

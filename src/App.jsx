@@ -210,7 +210,7 @@ function App() {
           Our products are designed for everyone, environmentally friendly.
         </p>
 
-        <div className="flex lg:flex-nowrap flex-wrap justify-between w-[95%] lg:w-[80%] m-auto py-[30px]">
+        <div className="flex lg:flex-nowrap flex-wrap justify-between w-[90%] lg:w-[80%] m-auto py-[30px]">
           {sec2box1.map((e) => {
             return <Box1 img={e.img} name={e.name} key={e.id} />;
           })}
@@ -245,10 +245,10 @@ function App() {
 
       <div className="sec4 flex justify-end items-center">
 
-        <div className=" lg:bg-white bg-[#ffffffcc] w-[60%] lg:w-[30%] text-center p-8 rounded-2xl  lg:mr-52">
-          <p className="text-[#999999] text-[8px] lg:text-[12px]">LIMITED EDITION</p>
+        <div className=" lg:bg-white bg-[#ffffffcc] w-[60%] lg:w-[30%] text-center p-3 lg:p-8 rounded-2xl  lg:mr-52 mr-5">
+          <p className="text-[#444444] text-[10px] lg:text-[12px]">LIMITED EDITION</p>
           <p className="text-[#111111] text-[24px] lg:text-[32px] py-2">Unique Style</p>
-          <p className="text-[#555555] text-[8px] lg:text-[12px] mb-7">
+          <p className="text-[#555555] text-[10px] lg:text-[12px] mb-7">
             The watch is carefully designed with quality materials, such as the
             domed sapphire crystal, and the meticulous level of detail - from
             the dial to the delicate gold hour markers.
